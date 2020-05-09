@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PAB Sesi 3</string>
+    <string name="province">Provinsi</string>
+    <string-array name="prov_array">
+        <item>Banten</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Other</item>
+    </string-array>
+</resources>

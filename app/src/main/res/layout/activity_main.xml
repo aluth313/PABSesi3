@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+<!--    tools:context=".MainActivity"-->
+    <LinearLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_red_dark"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/layoutCenter"
+        android:layout_width="?actionBarSize"
+        android:layout_height="?actionBarSize"
+        android:layout_centerInParent="true"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/layoutLeft"
+        android:layout_width="?actionBarSize"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutBottom"
+        android:layout_below="@+id/layoutTop"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/layoutRight"
+        android:layout_width="?actionBarSize"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutBottom"
+        android:layout_below="@+id/layoutTop"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_purple"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal"/>
+
+
+</RelativeLayout>
